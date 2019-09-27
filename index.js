@@ -16,8 +16,9 @@
 // progressDays([6, 5, 3, 4]) --> 1
 // progressDays([9, 9]) --> 0
 
-progressDays = (johnnyArray) => {
-  // write your code here
+progressDays = (runs) => {
+  // write your code HERE
+  
 };
 
 module.exports = progressDays;

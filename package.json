@@ -1,0 +1,25 @@
+{
+  "name": "is-johnny-making-progress",
+  "version": "1.0.0",
+  "description": "Algorithms Challenge @Codeworks Barcelona, 27.09.2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LRharlekin/is-johnny-making-progress.git"
+  },
+  "author": "Lukas Rappen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LRharlekin/is-johnny-making-progress/issues"
+  },
+  "homepage": "https://github.com/LRharlekin/is-johnny-making-progress#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "gulp": "^4.0.2",
+    "mocha": "^6.2.0"
+  }
+}

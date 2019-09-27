@@ -6,8 +6,8 @@
 // If the distance run one Saturday exceeds the distance run the previous
 // Saturday, he calls that a "progress day".
 
-// Create a function that takes an array of the amount of kilometers Johnny ran on 
-// different Saturdays within a certain period, and returns Johnny's total number 
+// Create a function that takes an array of the amount of kilometers Johnny ran on
+// different Saturdays within a certain period, and returns Johnny's total number
 // of progress days from that period.
 
 // Examples:
@@ -17,8 +17,13 @@
 // progressDays([9, 9]) --> 0
 
 progressDays = (runs) => {
-  // write your code HERE
-  
+  let progressDays = 0;
+  for (let i = 0; i < runs.length; i++) {
+    if (runs[i+1] && (runs[i] < runs[i+1])) {
+      progressDays +=1}
+  }
+
+  return progressDays;
 };
 
 module.exports = progressDays;
